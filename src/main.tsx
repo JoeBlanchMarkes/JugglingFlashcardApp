@@ -15,7 +15,9 @@ const router = createBrowserRouter([
       { path: 'manage', element: <Manage /> },
     ],
   },
-])
+], {
+  basename: '/JugglingFlashcardApp'
+})
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
